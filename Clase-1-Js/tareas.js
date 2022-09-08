@@ -8,13 +8,13 @@
 // (sin el signo "=", ni la doble barra del comentario, ni tu respuesta) 
 // y luego presionar enter, asi obtendras el resultado automaticamente)
 
-// 6 / "3" 
-// "2" * "3" =
-// 4 + 5 + "px" =
-// "$" + 4 + 5 =
-// "4" - 2 =
-// "4px" - 2 =
-// 7 / 0 =
+// 6 / "3" = 2
+// "2" * "3" = "6"
+// 4 + 5 + "px" = 9px
+// "$" + 4 + 5 = $9
+// "4" - 2 = 2
+// "4px" - 2 = 2px (NaN)
+// 7 / 0 = 0
 // parseInt("09") =
 // [3]+[3]-[10] =
 // 3>2>1 =
