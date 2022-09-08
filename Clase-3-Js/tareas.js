@@ -184,11 +184,6 @@ function esPrimo(numero) {
       return true
     }
   }
-  // if(numero % numero == 0 && numero % 1 == 0 && numero !== 0 && numero !== 1){
-  //   return true
-  // } else { 
-  //   return false
-  // }
 }
 
 function doWhile(numero) {
@@ -196,9 +191,6 @@ function doWhile(numero) {
   //Retornar el valor final.
   //Usar el bucle do ... while.
   //Tu código:
-  do {
-    numero + 5;
-  } while (numero = numero + 5 * 8)
 }
 
 // No modificar nada debajo de esta línea, sino no correrán los test.
