@@ -177,11 +177,11 @@ function esPrimo(numero) {
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
   // Tu código:
-   for (var i = 2; i < numero; i++) {
-    if (numero % i === 0) {
-      return false
-    } else {
+   for (let i = 2; i < numero; i++) {
+    if (numero % i == 0 || numero % numero == 0) {
       return true
+    } else {
+      false
     }
   }
 }
@@ -191,6 +191,11 @@ function doWhile(numero) {
   //Retornar el valor final.
   //Usar el bucle do ... while.
   //Tu código:
+  do {
+    numero + 5;
+  }
+  while (numero < numero + 5 * 8)
+  return numero;
 }
 
 // No modificar nada debajo de esta línea, sino no correrán los test.
